@@ -1,0 +1,66 @@
+2024-03-23 21:35:40,338:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-03-23 21:35:40,338:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-03-23 21:35:40,339:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-03-23 21:35:40,339:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-03-23 21:37:07,111:INFO:PyCaret RegressionExperiment
+2024-03-23 21:37:07,112:INFO:Logging name: reg-default-name
+2024-03-23 21:37:07,113:INFO:ML Usecase: MLUsecase.REGRESSION
+2024-03-23 21:37:07,115:INFO:version 3.2.0
+2024-03-23 21:37:07,115:INFO:Initializing setup()
+2024-03-23 21:37:07,115:INFO:self.USI: de69
+2024-03-23 21:37:07,115:INFO:self._variable_keys: {'idx', 'pipeline', 'y_train', 'exp_id', 'html_param', 'fold_generator', 'logging_param', 'y_test', 'memory', 'X_test', 'X_train', 'USI', 'X', 'log_plots_param', 'target_param', 'n_jobs_param', 'fold_shuffle_param', 'seed', '_available_plots', 'fold_groups_param', 'gpu_param', 'y', 'transform_target_param', 'gpu_n_jobs_param', 'data', 'exp_name_log', '_ml_usecase'}
+2024-03-23 21:37:07,115:INFO:Checking environment
+2024-03-23 21:37:07,115:INFO:python_version: 3.10.9
+2024-03-23 21:37:07,115:INFO:python_build: ('tags/v3.10.9:1dd9be6', 'Dec  6 2022 20:01:21')
+2024-03-23 21:37:07,115:INFO:machine: AMD64
+2024-03-23 21:37:07,133:INFO:platform: Windows-10-10.0.19045-SP0
+2024-03-23 21:37:07,148:INFO:Memory: svmem(total=8443035648, available=867725312, percent=89.7, used=7575310336, free=867725312)
+2024-03-23 21:37:07,148:INFO:Physical Core: 2
+2024-03-23 21:37:07,148:INFO:Logical Core: 4
+2024-03-23 21:37:07,148:INFO:Checking libraries
+2024-03-23 21:37:07,149:INFO:System:
+2024-03-23 21:37:07,149:INFO:    python: 3.10.9 (tags/v3.10.9:1dd9be6, Dec  6 2022, 20:01:21) [MSC v.1934 64 bit (AMD64)]
+2024-03-23 21:37:07,149:INFO:executable: E:\python_env\env_automl\Scripts\python.exe
+2024-03-23 21:37:07,149:INFO:   machine: Windows-10-10.0.19045-SP0
+2024-03-23 21:37:07,149:INFO:PyCaret required dependencies:
+2024-03-23 21:37:11,046:INFO:                 pip: 23.3.2
+2024-03-23 21:37:11,046:INFO:          setuptools: 68.2.2
+2024-03-23 21:37:11,047:INFO:             pycaret: 3.2.0
+2024-03-23 21:37:11,047:INFO:             IPython: 8.20.0
+2024-03-23 21:37:11,047:INFO:          ipywidgets: 8.1.1
+2024-03-23 21:37:11,047:INFO:                tqdm: 4.66.1
+2024-03-23 21:37:11,047:INFO:               numpy: 1.25.2
+2024-03-23 21:37:11,047:INFO:              pandas: 1.5.3
+2024-03-23 21:37:11,047:INFO:              jinja2: 3.1.2
+2024-03-23 21:37:11,047:INFO:               scipy: 1.10.1
+2024-03-23 21:37:11,047:INFO:              joblib: 1.3.2
+2024-03-23 21:37:11,047:INFO:             sklearn: 1.2.2
+2024-03-23 21:37:11,047:INFO:                pyod: 1.1.2
+2024-03-23 21:37:11,047:INFO:            imblearn: 0.11.0
+2024-03-23 21:37:11,047:INFO:   category_encoders: 2.6.3
+2024-03-23 21:37:11,047:INFO:            lightgbm: 4.2.0
+2024-03-23 21:37:11,047:INFO:               numba: 0.58.1
+2024-03-23 21:37:11,047:INFO:            requests: 2.31.0
+2024-03-23 21:37:11,047:INFO:          matplotlib: 3.6.0
+2024-03-23 21:37:11,047:INFO:          scikitplot: 0.3.7
+2024-03-23 21:37:11,047:INFO:         yellowbrick: 1.5
+2024-03-23 21:37:11,047:INFO:              plotly: 5.18.0
+2024-03-23 21:37:11,047:INFO:    plotly-resampler: Not installed
+2024-03-23 21:37:11,048:INFO:             kaleido: 0.2.1
+2024-03-23 21:37:11,048:INFO:           schemdraw: 0.15
+2024-03-23 21:37:11,048:INFO:         statsmodels: 0.14.1
+2024-03-23 21:37:11,048:INFO:              sktime: 0.21.1
+2024-03-23 21:37:11,048:INFO:               tbats: 1.1.3
+2024-03-23 21:37:11,048:INFO:            pmdarima: 2.0.4
+2024-03-23 21:37:11,048:INFO:              psutil: 5.9.7
+2024-03-23 21:37:11,048:INFO:          markupsafe: 2.1.3
+2024-03-23 21:37:11,048:INFO:             pickle5: Not installed
+2024-03-23 21:37:11,048:INFO:         cloudpickle: 2.2.1
+2024-03-23 21:37:11,048:INFO:         deprecation: 2.1.0
+2024-03-23 21:37:11,048:INFO:              xxhash: 3.4.1
+2024-03-23 21:37:11,048:INFO:           wurlitzer: Not installed
+2024-03-23 21:37:11,048:INFO:PyCaret optional dependencies:
